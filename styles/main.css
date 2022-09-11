@@ -198,6 +198,10 @@ li{
     #hero-wrapper{
         flex-direction: column;
     }
+    #social-links{
+        flex-direction: column;
+        padding-top: 10px;
+    }
 
     .section-page{
         padding-top: 1em;
