@@ -198,11 +198,15 @@ li{
     #hero-wrapper{
         flex-direction: column;
     }
-    #social-links{
-        flex-direction: column;
-        padding-top: 10px;
+    
+    /* #socials-list a{
+        padding-bottom: 10px;
+    } */
+    #socials-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 15px;
     }
-
     .section-page{
         padding-top: 1em;
         padding-bottom: 1em;
